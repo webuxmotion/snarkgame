@@ -1,0 +1,15 @@
+.logo {
+  @include hoverEffect;
+
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  svg {
+    width: 150px;
+    height: auto;
+  }
+}

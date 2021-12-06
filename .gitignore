@@ -1,0 +1,12 @@
+/tmp/**/*
+!/tmp/.gitkeep
+!/tmp/cache/
+!/tmp/cache/.gitkeep
+node_modules
+yarn.lock
+.env
+composer.lock
+
+.swp
+.DS_Store
+/vendor/
