@@ -65,7 +65,13 @@ ul {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-style: italic;
+}
+.hero__big-text {
   font-size: 8vw;
   font-weight: bold;
-  font-style: italic;
+}
+.hero__small-text {
+  font-size: 4vw;
+  letter-spacing: 0.4vw;
 }

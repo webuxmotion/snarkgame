@@ -4,7 +4,15 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-size: 8vw;
-  font-weight: bold;
   font-style: italic;
+
+  &__big-text {
+    font-size: 8vw;
+    font-weight: bold;
+  }
+
+  &__small-text {
+    font-size: 4vw;
+    letter-spacing: 0.4vw;
+  }
 }

@@ -1,3 +1,4 @@
 <div class="hero">
-  EMOMOE
+  <div class="hero__big-text">SNARK</div>
+  <div class="hero__small-text">GAME</div>
 </div>

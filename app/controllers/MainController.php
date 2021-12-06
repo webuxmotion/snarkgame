@@ -9,9 +9,9 @@ class MainController extends AppController {
     public function indexAction() {
     
        $this->setMeta(
-           'EMOMOE Clothing Brand',
-           'EMOMOE Clothing Brand',
-           'emomoe, clothing'
+           'Snark Game',
+           'Snark Game, table game',
+           'snarkgame, snark, table game'
        );
     }
 }
