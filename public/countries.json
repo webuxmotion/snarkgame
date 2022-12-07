@@ -13,6 +13,152 @@
             "code": "da",
             "name": "Danish"
         },
-        "flag": "https://restcountries.eu/data/dnk.svg"
+        "flag": "/flags/dnk.svg"
+    },
+    {
+        "name": "Norway",
+        "code": "NO",
+        "capital": "Oslo",
+        "region": "EU",
+        "currency": {
+            "code": "NOK",
+            "name": "Norwegian krone",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "no",
+            "name": "Norwegian"
+        },
+        "flag": "/flags/nor.svg"
+    },
+    {
+        "name": "Sweden",
+        "code": "SE",
+        "capital": "Stockholm",
+        "region": "EU",
+        "currency": {
+            "code": "SEK",
+            "name": "Swedish krona",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "sv",
+            "name": "Swedish"
+        },
+        "flag": "/flags/swe.svg"
+    },
+    {
+        "name": "Finland",
+        "code": "FI",
+        "capital": "Helsinki",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        "language": {
+            "code": "fi",
+            "iso639_2": "fin",
+            "name": "Finnish",
+            "nativeName": "suomi"
+        },
+        "flag": "/flags/fin.svg"
+    },
+    {
+        "name": "Switzerland",
+        "code": "CH",
+        "capital": "Bern",
+        "region": "EU",
+        "currency": {
+            "code": "CHF",
+            "name": "Swiss franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "de",
+            "name": "German"
+        },
+        "flag": "/flags/che.svg"
+    },
+    {
+        "name": "Netherlands",
+        "code": "NL",
+        "capital": "Amsterdam",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        "language": {
+            "code": "nl",
+            "name": "Dutch"
+        },
+        "flag": "/flags/nld.svg"
+    },
+    {
+        "name": "Luxembourg",
+        "code": "LU",
+        "capital": "Luxembourg",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "/flags/lux.svg"
+    },
+    {
+        "name": "New Zealand",
+        "code": "NZ",
+        "capital": "Wellington",
+        "region": "OC",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "/flags/nzl.svg"
+    },
+    {
+        "name": "Germany",
+        "code": "DE",
+        "capital": "Berlin",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        "language": {
+            "code": "de",
+            "name": "German"
+        },
+        "flag": "/flags/deu.svg"
+    },
+    {
+        "name": "Iceland",
+        "code": "IS",
+        "capital": "Reykjavík",
+        "region": "EU",
+        "currency": {
+            "code": "ISK",
+            "name": "Icelandic króna",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "is",
+            "name": "Icelandic"
+        },
+        "flag": "/flags/isl.svg"
     }
 ]
