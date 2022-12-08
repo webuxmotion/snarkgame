@@ -160,5 +160,167 @@
             "name": "Icelandic"
         },
         "flag": "/flags/isl.svg"
+    },
+    {
+        "name": "Austria",
+        "code": "AT",
+        "capital": "Vienna",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        "language": {
+            "code": "de",
+            "name": "German"
+        },
+        "flag": "/flags/aut.svg"
+    },
+    {
+        "name": "Ireland",
+        "code": "IE",
+        "capital": "Dublin",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        "language": {
+            "code": "ga",
+            "name": "Irish"
+        },
+        "flag": "/flags/irl.svg"
+    },
+    {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "code": "GB",
+        "capital": "London",
+        "region": "EU",
+        "currency": {
+            "code": "GBP",
+            "name": "British pound",
+            "symbol": "£"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "/flags/gbr.svg"
+    },
+    {
+        "name": "Singapore",
+        "code": "SG",
+        "capital": "Singapore",
+        "region": "AS",
+        "currency": {
+            "code": "SGD",
+            "name": "Singapore dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "/flags/sgp.svg"
+    },
+    {
+        "name": "Canada",
+        "code": "CA",
+        "capital": "Ottawa",
+        "region": "NA",
+        "currency": {
+            "code": "CAD",
+            "name": "Canadian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "/flags/can.svg"
+    },
+    {
+        "name": "Australia",
+        "code": "AU",
+        "capital": "Canberra",
+        "region": "OC",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "/flags/aus.svg"
+    },
+    {
+        "name": "Estonia",
+        "code": "EE",
+        "capital": "Tallinn",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        "language": {
+            "code": "et",
+            "name": "Estonian"
+        },
+        "flag": "/flags/est.svg"
+    },
+    {
+        "name": "Hong Kong",
+        "code": "HK",
+        "capital": "City of Victoria",
+        "region": "AS",
+        "currency": {
+            "code": "HKD",
+            "name": "Hong Kong dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "/flags/hkg.svg"
+    },
+    {
+        "name": "Japan",
+        "code": "JP",
+        "capital": "Tokyo",
+        "region": "AS",
+        "currency": {
+            "code": "JPY",
+            "name": "Japanese yen",
+            "symbol": "¥"
+        },
+        "language": {
+            "code": "ja",
+            "name": "Japanese"
+        },
+        "flag": "/flags/jpn.svg"
+    },
+    {
+        "name": "United States of America",
+        "code": "US",
+        "capital": "Washington, D.C.",
+        "region": "NA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+        },
+        "flag": "/flags/usa.svg"
     }
 ]
