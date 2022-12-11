@@ -5,7 +5,7 @@ module.exports = {
       app: ['./app/src/app.js'],
   },
   output: {
-    filename: '[name].js',
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'public/dist'),
   },
   module: {
@@ -17,7 +17,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
                 outputPath: '../dist',
-                name: '[name].css',
+                name: '[name].[contenthash].css',
             },
           },
           "sass-loader",

@@ -9,7 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
-  <link href="/dist/styles.css" rel="stylesheet">
+  
+  <?=importStyles()?>
 </head>
 <body>
   <?=$content?>
@@ -17,7 +18,8 @@
   <script>
     var serverUrl = "<?=siteUrl()?>";
   </script>
-  <script src="/dist/app.js"></script>
+  
+  <?=importScripts()?>
   <?=$scripts?>
 </body>
 </html>
