@@ -1,0 +1,53 @@
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(226, 226, 226);
+
+    &__card {
+        border: 1px solid rgb(197, 197, 197);
+        width: 10%;
+        box-sizing: border-box;
+
+        &:hover {
+            background-color: rgb(196, 196, 196);
+            cursor: pointer;
+        }
+
+        &.is-error {
+            background-color: rgb(255, 161, 161);
+        }
+    
+        &.is-success {
+            background-color: rgb(140, 254, 149);
+        }
+    }
+
+    &__card-inner {
+        padding-top: 100%;
+        position: relative;
+    }
+
+    &__title {
+        position: absolute;
+    }
+
+    &__image {
+        position: absolute;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.variants {
+    &__item {
+        padding: 5px;
+        
+        &:hover {
+            background-color:rgb(183, 183, 183);
+        }
+    }
+}

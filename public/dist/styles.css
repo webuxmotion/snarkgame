@@ -75,3 +75,47 @@ ul {
   font-size: 4vw;
   letter-spacing: 0.4vw;
 }
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #e2e2e2;
+}
+.game__card {
+  border: 1px solid #c5c5c5;
+  width: 10%;
+  box-sizing: border-box;
+}
+.game__card:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+.game__card.is-error {
+  background-color: #ffa1a1;
+}
+.game__card.is-success {
+  background-color: #8cfe95;
+}
+.game__card-inner {
+  padding-top: 100%;
+  position: relative;
+}
+.game__title {
+  position: absolute;
+}
+.game__image {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.variants__item {
+  padding: 5px;
+}
+.variants__item:hover {
+  background-color: #b7b7b7;
+}
