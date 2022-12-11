@@ -7,7 +7,6 @@ function importStyles() {
 
     foreach ($files as $file) {
         if (pathinfo($file, PATHINFO_EXTENSION) == 'css') {
-            debug($file);
             $filePath = "/dist/$file";
             $html .= '<link href="' . $filePath . '" rel="stylesheet">';
         }
@@ -23,7 +22,6 @@ function importScripts() {
 
     foreach ($files as $file) {
         if (pathinfo($file, PATHINFO_EXTENSION) == 'js') {
-            debug($file);
             $filePath = "/dist/$file";
             $html .= '<script src="' . $filePath . '"></script>';
         }
