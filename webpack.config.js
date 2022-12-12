@@ -1,4 +1,5 @@
 const path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -16,7 +17,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-                outputPath: '../dist',
+                path: path.resolve(__dirname, 'public/dist'),
                 name: '[name].[contenthash].css',
             },
           },
@@ -24,5 +25,9 @@ module.exports = {
         ],
       },
     ],
-  }
+  },
+  plugins: [
+    new CleanWebpackPlugin({
+    }),
+  ],
 };

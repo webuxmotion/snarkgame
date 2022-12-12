@@ -1,0 +1,397 @@
+body {
+  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.debug {
+  color: #969692;
+}
+
+.logo {
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+.logo:hover {
+  transform: translateY(-1px);
+}
+.logo:hover {
+  opacity: 0.8;
+}
+.logo svg {
+  width: 150px;
+  height: auto;
+}
+
+.button {
+  transition: 0.3s;
+  background-color: #147af2;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+}
+.button:hover {
+  transform: translateY(-1px);
+}
+.button:hover {
+  background-color: #4495f5;
+}
+.button:active {
+  background-color: #147af2;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-style: italic;
+}
+.hero__big-text {
+  font-size: 8vw;
+  font-weight: bold;
+}
+.hero__small-text {
+  font-size: 4vw;
+  letter-spacing: 0.4vw;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #e2e2e2;
+}
+.game__card {
+  border: 1px solid #c5c5c5;
+  width: 10%;
+  box-sizing: border-box;
+}
+.game__card:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+.game__card.is-error {
+  background-color: #ffa1a1;
+}
+.game__card.is-success {
+  background-color: #8cfe95;
+}
+.game__card-inner {
+  padding-top: 100%;
+  position: relative;
+}
+.game__title {
+  position: absolute;
+}
+.game__image {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.variants__item {
+  padding: 5px;
+}
+.variants__item:hover {
+  background-color: #b7b7b7;
+}
+
+.dice-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dice {
+  align-items: center;
+  width: 80%;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  grid-template-rows: auto;
+  justify-items: center;
+  padding: 2rem;
+  perspective: 600px;
+}
+
+.die-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: 6rem;
+  list-style-type: none;
+  transform-style: preserve-3d;
+  width: 6rem;
+}
+
+.even-roll {
+  transition: transform 1.5s ease-out;
+}
+
+.odd-roll {
+  transition: transform 1.25s ease-out;
+}
+
+.die-item {
+  background-color: #6b1515;
+  box-shadow: inset -0.35rem 0.35rem 0.75rem rgba(0, 0, 0, 0.3), inset 0.5rem -0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  grid-template-areas: "one two three" "four five six" "seven eight nine";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  padding: 1rem;
+  width: 100%;
+}
+.die-item--letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.die-item__letter {
+  font-size: 40px;
+  color: #353535;
+}
+.die-item__letter--rotate {
+  transform: rotateZ(180deg);
+}
+
+.dot {
+  align-self: center;
+  background-color: #676767;
+  border-radius: 50%;
+  box-shadow: inset -0.15rem 0.15rem 0.25rem rgba(0, 0, 0, 0.5);
+  display: block;
+  height: 1.25rem;
+  justify-self: center;
+  width: 1.25rem;
+}
+
+.die-item[data-side="6"] {
+  background-image: url("https://images.pexels.com/photos/2260783/pexels-photo-2260783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.die-item[data-side="5"] {
+  background-image: url("https://images.pexels.com/photos/37646/new-york-skyline-new-york-city-city-37646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.die-item[data-side="4"] {
+  background-image: url("https://images.pexels.com/photos/2260783/pexels-photo-2260783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.die-item[data-side="3"] {
+  background-image: url("https://images.pexels.com/photos/37646/new-york-skyline-new-york-city-city-37646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.die-item[data-side="2"] {
+  background-image: url("https://images.pexels.com/photos/2260783/pexels-photo-2260783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.die-item[data-side="1"] {
+  background-image: url("https://images.pexels.com/photos/37646/new-york-skyline-new-york-city-city-37646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.even-roll[data-roll="1"] {
+  transform: rotateX(360deg) rotateY(720deg) rotateZ(360deg);
+}
+
+.even-roll[data-roll="2"] {
+  transform: rotateX(450deg) rotateY(720deg) rotateZ(360deg);
+}
+
+.even-roll[data-roll="3"] {
+  transform: rotateX(360deg) rotateY(630deg) rotateZ(360deg);
+}
+
+.even-roll[data-roll="4"] {
+  transform: rotateX(360deg) rotateY(810deg) rotateZ(360deg);
+}
+
+.even-roll[data-roll="5"] {
+  transform: rotateX(270deg) rotateY(720deg) rotateZ(360deg);
+}
+
+.even-roll[data-roll="6"] {
+  transform: rotateX(360deg) rotateY(900deg) rotateZ(360deg);
+}
+
+.odd-roll[data-roll="1"] {
+  transform: rotateX(-360deg) rotateY(-720deg) rotateZ(-360deg);
+}
+
+.odd-roll[data-roll="2"] {
+  transform: rotateX(-270deg) rotateY(-720deg) rotateZ(-360deg);
+}
+
+.odd-roll[data-roll="3"] {
+  transform: rotateX(-360deg) rotateY(-810deg) rotateZ(-360deg);
+}
+
+.odd-roll[data-roll="4"] {
+  transform: rotateX(-360deg) rotateY(-630deg) rotateZ(-360deg);
+}
+
+.odd-roll[data-roll="5"] {
+  transform: rotateX(-450deg) rotateY(-720deg) rotateZ(-360deg);
+}
+
+.odd-roll[data-roll="6"] {
+  transform: rotateX(-360deg) rotateY(-900deg) rotateZ(-360deg);
+}
+
+[data-side="1"] {
+  transform: rotate3d(0, 0, 0, 90deg) translateZ(4rem);
+}
+
+[data-side="2"] {
+  transform: rotate3d(-1, 0, 0, 90deg) translateZ(4rem);
+}
+
+[data-side="3"] {
+  transform: rotate3d(0, 1, 0, 90deg) translateZ(4rem);
+}
+
+[data-side="4"] {
+  transform: rotate3d(0, -1, 0, 90deg) translateZ(4rem);
+}
+
+[data-side="5"] {
+  transform: rotate3d(1, 0, 0, 90deg) translateZ(4rem);
+}
+
+[data-side="6"] {
+  transform: rotate3d(1, 0, 0, 180deg) translateZ(4rem);
+}
+
+[data-side="1"] .dot:nth-of-type(1) {
+  grid-area: five;
+}
+
+[data-side="2"] .dot:nth-of-type(1) {
+  grid-area: one;
+}
+
+[data-side="2"] .dot:nth-of-type(2) {
+  grid-area: nine;
+}
+
+[data-side="3"] .dot:nth-of-type(1) {
+  grid-area: one;
+}
+
+[data-side="3"] .dot:nth-of-type(2) {
+  grid-area: five;
+}
+
+[data-side="3"] .dot:nth-of-type(3) {
+  grid-area: nine;
+}
+
+[data-side="4"] .dot:nth-of-type(1) {
+  grid-area: one;
+}
+
+[data-side="4"] .dot:nth-of-type(2) {
+  grid-area: three;
+}
+
+[data-side="4"] .dot:nth-of-type(3) {
+  grid-area: seven;
+}
+
+[data-side="4"] .dot:nth-of-type(4) {
+  grid-area: nine;
+}
+
+[data-side="5"] .dot:nth-of-type(1) {
+  grid-area: one;
+}
+
+[data-side="5"] .dot:nth-of-type(2) {
+  grid-area: three;
+}
+
+[data-side="5"] .dot:nth-of-type(3) {
+  grid-area: five;
+}
+
+[data-side="5"] .dot:nth-of-type(4) {
+  grid-area: seven;
+}
+
+[data-side="5"] .dot:nth-of-type(5) {
+  grid-area: nine;
+}
+
+[data-side="6"] .dot:nth-of-type(1) {
+  grid-area: one;
+}
+
+[data-side="6"] .dot:nth-of-type(2) {
+  grid-area: three;
+}
+
+[data-side="6"] .dot:nth-of-type(3) {
+  grid-area: four;
+}
+
+[data-side="6"] .dot:nth-of-type(4) {
+  grid-area: six;
+}
+
+[data-side="6"] .dot:nth-of-type(5) {
+  grid-area: seven;
+}
+
+[data-side="6"] .dot:nth-of-type(6) {
+  grid-area: nine;
+}
+
+button {
+  align-self: center;
+  background-color: #efefef;
+  border: none;
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: 700;
+  justify-self: center;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .dice {
+    perspective: 1300px;
+  }
+}
