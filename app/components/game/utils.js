@@ -1,9 +1,10 @@
 import top60 from './top60';
 import countries from './countries.json';
+import { generateInitialData } from './generateInitialData';
 import { ChoosePlayersCount } from './pages/ChoosePlayersCount';
 import { ChoosePlayersNames } from './pages/ChoosePlayersNames';
 import { ShakeDice } from './pages/ShakeDice';
-import { generateInitialData } from './generateInitialData';
+import { ChooseAnswer } from './pages/ChooseAnswer';
 
 export const gameElement = document.getElementById('game');
 export const localStorageKey = 'gameData';
@@ -11,6 +12,8 @@ export const modes = {
     CHOOSE_PLAYERS_COUNT: "CHOOSE_PLAYERS_COUNT",
     CHOOSE_PLAYERS_NAMES: "CHOOSE_PLAYERS_NAMES",
     SHAKE_DICE: "SHAKE_DICE",
+    CHOOSE_ANSWER: "CHOOSE_ANSWER",
+    CHECK_ANSWER: "CHECK_ANSWER"
 };
 export const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
@@ -33,11 +36,15 @@ export const getVariants = (countries, id) => {
     return variants;
 }
 
+export const getRandomNumber = (max) => {
+    return Math.floor(Math.random() * (max + 1));
+}
+
 export const getRandomNumbers = (max, count, exclude) => {
     const nums = [];
 
     while (nums.length < count) {
-        const candidate = Math.floor(Math.random() * (max + 1));
+        const candidate = getRandomNumber(max);
         const finded = nums.find(el => el == candidate);
         if (
             candidate !== exclude && (!finded && finded !== 0)
@@ -167,13 +174,7 @@ export const generatePassedQuestions = (variants) => {
     const data = {};
 
     Object.keys(variants).forEach((variantKey) => {
-        const variant = variants[variantKey];
-        const newVariant = [];
-        variant.forEach(_ => {
-            newVariant.push(0);
-        });
-
-        data[variantKey] = newVariant;
+        data[variantKey] = 0;
     });
 
     return data;
@@ -216,10 +217,27 @@ export const renderView = (data) => {
             break;
         }
 
+        case modes.CHOOSE_ANSWER:
+        case modes.CHECK_ANSWER: {
+            view = ChooseAnswer(data);
+            break;
+        }
+
         default: {
             view = data.mode;
         }
     }
 
     gameElement.innerHTML = view;
+}
+
+export const shakeDice = () => {
+    const num1 = getRandomNumber(5);
+    const num2 = getRandomNumber(4) + 1;
+    const num3 = getRandomNumber(4) + 1;
+    
+    const stringKey = letters[num1] + (num2 + num3);
+    const numsInArrayKey = [num1, num2, num3];
+
+    return [stringKey, numsInArrayKey];
 }

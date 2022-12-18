@@ -4,7 +4,7 @@ export const Dice = (type, number) => {
     let content;
 
     if (type == 'letter') {
-        content = letters?.[number - 1];
+        content = letters?.[number];
     } else if (type == 'number') {
         content = `
             <div class="game-dice__dots ${`show-${number}-dots`}">

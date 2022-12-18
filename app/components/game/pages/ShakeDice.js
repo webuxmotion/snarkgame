@@ -1,5 +1,5 @@
 import { Dice } from "../components/Dice";
-import { getGameData, modes, renderView, updateData } from "../utils";
+import { getGameData, getRandomNumber, letters, modes, renderView, shakeDice, updateData } from "../utils";
 
 export const ShakeDice = (data) => {
     
@@ -48,7 +48,7 @@ export const ShakeDice = (data) => {
 
             <div class="game__row">
                 <div class="game__dice-items">
-                    ${Dice('letter', 6)}
+                    ${Dice('letter', 5)}
                     <div>
                         ${Dice('number', 1)}
                         ${Dice('number', 2)}
@@ -71,7 +71,13 @@ export const ShakeDice = (data) => {
 
 export const ShakeDiceEventListener = (event) => {
     if (event.target.classList.contains('js-shake-dice')) {
-        console.log('shake');
+        const data = getGameData();
+
+        data.combination = shakeDice();
+        data.mode = modes.CHOOSE_ANSWER;
+
+        updateData(data);
+        renderView(data);
     }
 
     if (event.target.classList.contains('js-new-game')) {

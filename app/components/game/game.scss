@@ -18,4 +18,32 @@
         align-items: center;
         flex-direction: column;
     }
+
+    &__dice-items-row {
+        display: flex;
+    }
+
+    &__error-message {
+        color: red;
+        font-weight: 300;
+    }
+
+    &__modal-backdrop {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    &__modal {
+        position: absolute;
+        background-color: white;
+        border-radius: 18px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

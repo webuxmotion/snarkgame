@@ -150,6 +150,30 @@ ul {
   align-items: center;
   flex-direction: column;
 }
+.game__dice-items-row {
+  display: flex;
+}
+.game__error-message {
+  color: red;
+  font-weight: 300;
+}
+.game__modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.game__modal {
+  position: absolute;
+  background-color: white;
+  border-radius: 18px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .dice-wrapper {
   height: 100vh;
