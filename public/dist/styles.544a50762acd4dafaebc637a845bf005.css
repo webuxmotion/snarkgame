@@ -76,48 +76,79 @@ ul {
   letter-spacing: 0.4vw;
 }
 
-.game {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1000px;
-  margin: 0 auto;
-  background-color: #e2e2e2;
+.game-dice {
+  width: 75px;
+  height: 75px;
+  border-radius: 14px;
+  border: 2px solid black;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
 }
-.game__card {
-  border: 1px solid #c5c5c5;
-  width: 10%;
-  box-sizing: border-box;
-}
-.game__card:hover {
-  background-color: #c4c4c4;
-  cursor: pointer;
-}
-.game__card.is-error {
-  background-color: #ffa1a1;
-}
-.game__card.is-success {
-  background-color: #8cfe95;
-}
-.game__card-inner {
-  padding-top: 100%;
+.game-dice__dots {
+  width: 100%;
+  height: 100%;
   position: relative;
 }
-.game__title {
+.game-dice__dots.show-0-dots .game-dice__dot {
+  display: none;
+}
+.game-dice__dots.show-1-dots .game-dice__dot:nth-child(1), .game-dice__dots.show-1-dots .game-dice__dot:nth-child(2), .game-dice__dots.show-1-dots .game-dice__dot:nth-child(4), .game-dice__dots.show-1-dots .game-dice__dot:nth-child(5) {
+  display: none;
+}
+.game-dice__dots.show-2-dots .game-dice__dot:nth-child(2), .game-dice__dots.show-2-dots .game-dice__dot:nth-child(3), .game-dice__dots.show-2-dots .game-dice__dot:nth-child(4) {
+  display: none;
+}
+.game-dice__dots.show-3-dots .game-dice__dot:nth-child(1), .game-dice__dots.show-3-dots .game-dice__dot:nth-child(5) {
+  display: none;
+}
+.game-dice__dots.show-4-dots .game-dice__dot:nth-child(3) {
+  display: none;
+}
+.game-dice__dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  background-color: black;
   position: absolute;
 }
-.game__image {
-  position: absolute;
-  width: 50%;
+.game-dice__dot:nth-child(1) {
+  top: 6px;
+  left: 6px;
+}
+.game-dice__dot:nth-child(2) {
+  top: 6px;
+  right: 6px;
+}
+.game-dice__dot:nth-child(3) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.variants__item {
-  padding: 5px;
+.game-dice__dot:nth-child(4) {
+  bottom: 6px;
+  left: 6px;
 }
-.variants__item:hover {
-  background-color: #b7b7b7;
+.game-dice__dot:nth-child(5) {
+  bottom: 6px;
+  right: 6px;
+}
+
+.game__wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.game__logo {
+  text-align: center;
+}
+.game__dice-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .dice-wrapper {

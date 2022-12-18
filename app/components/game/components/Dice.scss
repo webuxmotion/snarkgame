@@ -1,0 +1,90 @@
+.game-dice {
+    width: 75px;
+    height: 75px;
+    border-radius: 14px;
+    border: 2px solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+
+    &__dots {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        &.show-0-dots {
+            .game-dice__dot {
+                display: none;
+            }
+        }
+
+        &.show-1-dots {
+            .game-dice__dot {
+                &:nth-child(1), &:nth-child(2), &:nth-child(4), &:nth-child(5) {
+                    display: none;
+                }
+            }
+        }
+
+        &.show-2-dots {
+            .game-dice__dot {
+                &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                    display: none;
+                }
+            }
+        }
+
+        &.show-3-dots {
+            .game-dice__dot {
+                &:nth-child(1), &:nth-child(5) {
+                    display: none;
+                }
+            }
+        }
+
+        &.show-4-dots {
+            .game-dice__dot {
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &__dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 16px;
+        background-color: black;
+        position: absolute;
+
+        $spacer: 6px;
+
+        &:nth-child(1) {
+            top: $spacer;
+            left: $spacer;
+        }
+
+        &:nth-child(2) {
+            top: $spacer;
+            right: $spacer;
+        }
+
+        &:nth-child(3) {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &:nth-child(4) {
+            bottom: $spacer;
+            left: $spacer;
+        }
+
+        &:nth-child(5) {
+            bottom: $spacer;
+            right: $spacer;
+        }
+    }
+}

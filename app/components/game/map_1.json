@@ -1,0 +1,1749 @@
+{
+    "A1": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Denmark"
+            ],
+            [
+                "Яка столиця країни?",
+                "Copenhagen"
+            ]
+        ],
+        "meta": {
+            "name": "Denmark",
+            "code": "DK",
+            "capital": "Copenhagen",
+            "region": "EU",
+            "currency": {
+                "code": "DKK",
+                "name": "Danish krone",
+                "symbol": "kr"
+            },
+            "language": {
+                "code": "da",
+                "name": "Danish"
+            },
+            "flag": "https://restcountries.eu/data/dnk.svg",
+            "flagAttr": "DNK"
+        }
+    },
+    "A2": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Norway"
+            ],
+            [
+                "Яка столиця країни?",
+                "Oslo"
+            ]
+        ],
+        "meta": {
+            "name": "Norway",
+            "code": "NO",
+            "capital": "Oslo",
+            "region": "EU",
+            "currency": {
+                "code": "NOK",
+                "name": "Norwegian krone",
+                "symbol": "kr"
+            },
+            "language": {
+                "code": "no",
+                "name": "Norwegian"
+            },
+            "flag": "https://restcountries.eu/data/nor.svg",
+            "flagAttr": "NOR"
+        }
+    },
+    "A3": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Sweden"
+            ],
+            [
+                "Яка столиця країни?",
+                "Stockholm"
+            ]
+        ],
+        "meta": {
+            "name": "Sweden",
+            "code": "SE",
+            "capital": "Stockholm",
+            "region": "EU",
+            "currency": {
+                "code": "SEK",
+                "name": "Swedish krona",
+                "symbol": "kr"
+            },
+            "language": {
+                "code": "sv",
+                "name": "Swedish"
+            },
+            "flag": "https://restcountries.eu/data/swe.svg",
+            "flagAttr": "SWE"
+        }
+    },
+    "A4": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Finland"
+            ],
+            [
+                "Яка столиця країни?",
+                "Helsinki"
+            ]
+        ],
+        "meta": {
+            "name": "Finland",
+            "code": "FI",
+            "capital": "Helsinki",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "fi",
+                "iso639_2": "fin",
+                "name": "Finnish",
+                "nativeName": "suomi"
+            },
+            "flag": "https://restcountries.eu/data/fin.svg",
+            "flagAttr": "FIN"
+        }
+    },
+    "A5": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Switzerland"
+            ],
+            [
+                "Яка столиця країни?",
+                "Bern"
+            ]
+        ],
+        "meta": {
+            "name": "Switzerland",
+            "code": "CH",
+            "capital": "Bern",
+            "region": "EU",
+            "currency": {
+                "code": "CHF",
+                "name": "Swiss franc",
+                "symbol": "Fr"
+            },
+            "language": {
+                "code": "de",
+                "name": "German"
+            },
+            "flag": "https://restcountries.eu/data/che.svg",
+            "flagAttr": "CHE"
+        }
+    },
+    "A6": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Netherlands"
+            ],
+            [
+                "Яка столиця країни?",
+                "Amsterdam"
+            ]
+        ],
+        "meta": {
+            "name": "Netherlands",
+            "code": "NL",
+            "capital": "Amsterdam",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "nl",
+                "name": "Dutch"
+            },
+            "flag": "https://restcountries.eu/data/nld.svg",
+            "flagAttr": "NLD"
+        }
+    },
+    "A7": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Luxembourg"
+            ],
+            [
+                "Яка столиця країни?",
+                "Luxembourg"
+            ]
+        ],
+        "meta": {
+            "name": "Luxembourg",
+            "code": "LU",
+            "capital": "Luxembourg",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "fr",
+                "name": "French"
+            },
+            "flag": "https://restcountries.eu/data/lux.svg",
+            "flagAttr": "LUX"
+        }
+    },
+    "A8": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "New Zealand"
+            ],
+            [
+                "Яка столиця країни?",
+                "Wellington"
+            ]
+        ],
+        "meta": {
+            "name": "New Zealand",
+            "code": "NZ",
+            "capital": "Wellington",
+            "region": "OC",
+            "currency": {
+                "code": "NZD",
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "flag": "https://restcountries.eu/data/nzl.svg",
+            "flagAttr": "NZL"
+        }
+    },
+    "A9": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Germany"
+            ],
+            [
+                "Яка столиця країни?",
+                "Berlin"
+            ]
+        ],
+        "meta": {
+            "name": "Germany",
+            "code": "DE",
+            "capital": "Berlin",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "de",
+                "name": "German"
+            },
+            "flag": "https://restcountries.eu/data/deu.svg",
+            "flagAttr": "DEU"
+        }
+    },
+    "A10": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Iceland"
+            ],
+            [
+                "Яка столиця країни?",
+                "Reykjavík"
+            ]
+        ],
+        "meta": {
+            "name": "Iceland",
+            "code": "IS",
+            "capital": "Reykjavík",
+            "region": "EU",
+            "currency": {
+                "code": "ISK",
+                "name": "Icelandic króna",
+                "symbol": "kr"
+            },
+            "language": {
+                "code": "is",
+                "name": "Icelandic"
+            },
+            "flag": "https://restcountries.eu/data/isl.svg",
+            "flagAttr": "ISL"
+        }
+    },
+    "B1": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Austria"
+            ],
+            [
+                "Яка столиця країни?",
+                "Vienna"
+            ]
+        ],
+        "meta": {
+            "name": "Austria",
+            "code": "AT",
+            "capital": "Vienna",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "de",
+                "name": "German"
+            },
+            "flag": "https://restcountries.eu/data/aut.svg",
+            "flagAttr": "AUT"
+        }
+    },
+    "B2": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Ireland"
+            ],
+            [
+                "Яка столиця країни?",
+                "Dublin"
+            ]
+        ],
+        "meta": {
+            "name": "Ireland",
+            "code": "IE",
+            "capital": "Dublin",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "ga",
+                "name": "Irish"
+            },
+            "flag": "https://restcountries.eu/data/irl.svg",
+            "flagAttr": "IRL"
+        }
+    },
+    "B3": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "United Kingdom of Great Britain and Northern Ireland"
+            ],
+            [
+                "Яка столиця країни?",
+                "London"
+            ]
+        ],
+        "meta": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB",
+            "capital": "London",
+            "region": "EU",
+            "currency": {
+                "code": "GBP",
+                "name": "British pound",
+                "symbol": "£"
+            },
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "flag": "https://restcountries.eu/data/gbr.svg",
+            "flagAttr": "GBR"
+        }
+    },
+    "B4": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Singapore"
+            ],
+            [
+                "Яка столиця країни?",
+                "Singapore"
+            ]
+        ],
+        "meta": {
+            "name": "Singapore",
+            "code": "SG",
+            "capital": "Singapore",
+            "region": "AS",
+            "currency": {
+                "code": "SGD",
+                "name": "Singapore dollar",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "flag": "https://restcountries.eu/data/sgp.svg",
+            "flagAttr": "SGP"
+        }
+    },
+    "B5": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Canada"
+            ],
+            [
+                "Яка столиця країни?",
+                "Ottawa"
+            ]
+        ],
+        "meta": {
+            "name": "Canada",
+            "code": "CA",
+            "capital": "Ottawa",
+            "region": "NA",
+            "currency": {
+                "code": "CAD",
+                "name": "Canadian dollar",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "flag": "https://restcountries.eu/data/can.svg",
+            "flagAttr": "CAN"
+        }
+    },
+    "B6": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Australia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Canberra"
+            ]
+        ],
+        "meta": {
+            "name": "Australia",
+            "code": "AU",
+            "capital": "Canberra",
+            "region": "OC",
+            "currency": {
+                "code": "AUD",
+                "name": "Australian dollar",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "flag": "https://restcountries.eu/data/aus.svg",
+            "flagAttr": "AUS"
+        }
+    },
+    "B7": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Estonia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Tallinn"
+            ]
+        ],
+        "meta": {
+            "name": "Estonia",
+            "code": "EE",
+            "capital": "Tallinn",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "et",
+                "name": "Estonian"
+            },
+            "flag": "https://restcountries.eu/data/est.svg",
+            "flagAttr": "EST"
+        }
+    },
+    "B8": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Hong Kong"
+            ],
+            [
+                "Яка столиця країни?",
+                "City of Victoria"
+            ]
+        ],
+        "meta": {
+            "name": "Hong Kong",
+            "code": "HK",
+            "capital": "City of Victoria",
+            "region": "AS",
+            "currency": {
+                "code": "HKD",
+                "name": "Hong Kong dollar",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "flag": "https://restcountries.eu/data/hkg.svg",
+            "flagAttr": "HKG"
+        }
+    },
+    "B9": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Japan"
+            ],
+            [
+                "Яка столиця країни?",
+                "Tokyo"
+            ]
+        ],
+        "meta": {
+            "name": "Japan",
+            "code": "JP",
+            "capital": "Tokyo",
+            "region": "AS",
+            "currency": {
+                "code": "JPY",
+                "name": "Japanese yen",
+                "symbol": "¥"
+            },
+            "language": {
+                "code": "ja",
+                "name": "Japanese"
+            },
+            "flag": "https://restcountries.eu/data/jpn.svg",
+            "flagAttr": "JPN"
+        }
+    },
+    "B10": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "United States of America"
+            ],
+            [
+                "Яка столиця країни?",
+                "Washington, D.C."
+            ]
+        ],
+        "meta": {
+            "name": "United States of America",
+            "code": "US",
+            "capital": "Washington, D.C.",
+            "region": "NA",
+            "currency": {
+                "code": "USD",
+                "name": "United States dollar",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "en",
+                "iso639_2": "eng",
+                "name": "English",
+                "nativeName": "English"
+            },
+            "flag": "https://restcountries.eu/data/usa.svg",
+            "flagAttr": "USA"
+        }
+    },
+    "C1": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Taiwan"
+            ],
+            [
+                "Яка столиця країни?",
+                "Taipei"
+            ]
+        ],
+        "meta": {
+            "name": "Taiwan",
+            "code": "TW",
+            "capital": "Taipei",
+            "region": "AS",
+            "currency": {
+                "code": "TWD",
+                "name": "New Taiwan dollar",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "zh",
+                "name": "Chinese"
+            },
+            "flag": "https://restcountries.eu/data/twn.svg",
+            "flagAttr": "TWN"
+        }
+    },
+    "C2": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "France"
+            ],
+            [
+                "Яка столиця країни?",
+                "Paris"
+            ]
+        ],
+        "meta": {
+            "name": "France",
+            "code": "FR",
+            "capital": "Paris",
+            "region": "EU",
+            "demonym": "French",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "fr",
+                "name": "French"
+            },
+            "flag": "https://restcountries.eu/data/fra.svg",
+            "flagAttr": "FRA"
+        }
+    },
+    "C3": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Belgium"
+            ],
+            [
+                "Яка столиця країни?",
+                "Brussels"
+            ]
+        ],
+        "meta": {
+            "name": "Belgium",
+            "code": "BE",
+            "capital": "Brussels",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "nl",
+                "name": "Dutch"
+            },
+            "flag": "https://restcountries.eu/data/bel.svg",
+            "flagAttr": "BEL"
+        }
+    },
+    "C4": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Spain"
+            ],
+            [
+                "Яка столиця країни?",
+                "Madrid"
+            ]
+        ],
+        "meta": {
+            "name": "Spain",
+            "code": "ES",
+            "capital": "Madrid",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "es",
+                "name": "Spanish"
+            },
+            "flag": "https://restcountries.eu/data/esp.svg",
+            "flagAttr": "ESP"
+        }
+    },
+    "C5": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Malta"
+            ],
+            [
+                "Яка столиця країни?",
+                "Valletta"
+            ]
+        ],
+        "meta": {
+            "name": "Malta",
+            "code": "MT",
+            "capital": "Valletta",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "mt",
+                "name": "Maltese"
+            },
+            "flag": "https://restcountries.eu/data/mlt.svg",
+            "flagAttr": "MLT"
+        }
+    },
+    "C6": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Slovenia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Ljubljana"
+            ]
+        ],
+        "meta": {
+            "name": "Slovenia",
+            "code": "SI",
+            "capital": "Ljubljana",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "sl",
+                "name": "Slovene"
+            },
+            "flag": "https://restcountries.eu/data/svn.svg",
+            "flagAttr": "SVN"
+        }
+    },
+    "C7": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Czech Republic"
+            ],
+            [
+                "Яка столиця країни?",
+                "Prague"
+            ]
+        ],
+        "meta": {
+            "name": "Czech Republic",
+            "code": "CZ",
+            "capital": "Prague",
+            "region": "EU",
+            "currency": {
+                "code": "CZK",
+                "name": "Czech koruna",
+                "symbol": "Kč"
+            },
+            "language": {
+                "code": "cs",
+                "name": "Czech"
+            },
+            "flag": "https://restcountries.eu/data/cze.svg",
+            "flagAttr": "CZE"
+        }
+    },
+    "C8": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Portugal"
+            ],
+            [
+                "Яка столиця країни?",
+                "Lisbon"
+            ]
+        ],
+        "meta": {
+            "name": "Portugal",
+            "code": "PT",
+            "capital": "Lisbon",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "pt",
+                "name": "Portuguese"
+            },
+            "flag": "https://restcountries.eu/data/prt.svg",
+            "flagAttr": "PRT"
+        }
+    },
+    "C9": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "South Korea"
+            ],
+            [
+                "Яка столиця країни?",
+                "Seoul"
+            ]
+        ],
+        "meta": {
+            "name": "South Korea",
+            "code": "KR",
+            "capital": "Seoul",
+            "region": "AS",
+            "currency": {
+                "code": "KRW",
+                "name": "South Korean won",
+                "symbol": "₩"
+            },
+            "language": {
+                "code": "ko",
+                "name": "Korean"
+            },
+            "flag": "https://restcountries.eu/data/kor.svg",
+            "flagAttr": "KOR"
+        }
+    },
+    "C10": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Latvia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Riga"
+            ]
+        ],
+        "meta": {
+            "name": "Latvia",
+            "code": "LV",
+            "capital": "Riga",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "lv",
+                "name": "Latvian"
+            },
+            "flag": "https://restcountries.eu/data/lva.svg",
+            "flagAttr": "LVA"
+        }
+    },
+    "D1": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Italy"
+            ],
+            [
+                "Яка столиця країни?",
+                "Rome"
+            ]
+        ],
+        "meta": {
+            "name": "Italy",
+            "code": "IT",
+            "capital": "Rome",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "it",
+                "name": "Italian"
+            },
+            "flag": "https://restcountries.eu/data/ita.svg",
+            "flagAttr": "ITA"
+        }
+    },
+    "D2": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Israel"
+            ],
+            [
+                "Яка столиця країни?",
+                "Jerusalem"
+            ]
+        ],
+        "meta": {
+            "name": "Israel",
+            "code": "IL",
+            "capital": "Jerusalem",
+            "region": "AS",
+            "currency": {
+                "code": "ILS",
+                "name": "Israeli new shekel",
+                "symbol": "₪"
+            },
+            "language": {
+                "code": "he",
+                "name": "Hebrew (modern)"
+            },
+            "flag": "https://restcountries.eu/data/isr.svg",
+            "flagAttr": "ISR"
+        }
+    },
+    "D3": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Lithuania"
+            ],
+            [
+                "Яка столиця країни?",
+                "Vilnius"
+            ]
+        ],
+        "meta": {
+            "name": "Lithuania",
+            "code": "LT",
+            "capital": "Vilnius",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "lt",
+                "name": "Lithuanian"
+            },
+            "flag": "https://restcountries.eu/data/ltu.svg",
+            "flagAttr": "LTU"
+        }
+    },
+    "D4": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Cyprus"
+            ],
+            [
+                "Яка столиця країни?",
+                "Nicosia"
+            ]
+        ],
+        "meta": {
+            "name": "Cyprus",
+            "code": "CY",
+            "capital": "Nicosia",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "tr",
+                "name": "Turkish"
+            },
+            "flag": "https://restcountries.eu/data/cyp.svg",
+            "flagAttr": "CYP"
+        }
+    },
+    "D5": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Slovakia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Bratislava"
+            ]
+        ],
+        "meta": {
+            "name": "Slovakia",
+            "code": "SK",
+            "capital": "Bratislava",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "sk",
+                "name": "Slovak"
+            },
+            "flag": "https://restcountries.eu/data/svk.svg",
+            "flagAttr": "SVK"
+        }
+    },
+    "D6": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Poland"
+            ],
+            [
+                "Яка столиця країни?",
+                "Warsaw"
+            ]
+        ],
+        "meta": {
+            "name": "Poland",
+            "code": "PL",
+            "capital": "Warsaw",
+            "region": "EU",
+            "currency": {
+                "code": "PLN",
+                "name": "Polish złoty",
+                "symbol": "zł"
+            },
+            "language": {
+                "code": "pl",
+                "name": "Polish"
+            },
+            "flag": "https://restcountries.eu/data/pol.svg",
+            "flagAttr": "POL"
+        }
+    },
+    "D7": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Uruguay"
+            ],
+            [
+                "Яка столиця країни?",
+                "Montevideo"
+            ]
+        ],
+        "meta": {
+            "name": "Uruguay",
+            "code": "UY",
+            "capital": "Montevideo",
+            "region": "SA",
+            "currency": {
+                "code": "UYU",
+                "name": "Uruguayan peso",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "es",
+                "name": "Spanish"
+            },
+            "flag": "https://restcountries.eu/data/ury.svg",
+            "flagAttr": "URY"
+        }
+    },
+    "D8": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Chile"
+            ],
+            [
+                "Яка столиця країни?",
+                "Santiago"
+            ]
+        ],
+        "meta": {
+            "name": "Chile",
+            "code": "CL",
+            "capital": "Santiago",
+            "region": "SA",
+            "currency": {
+                "code": "CLP",
+                "name": "Chilean peso",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "es",
+                "iso639_2": "spa",
+                "name": "Spanish",
+                "nativeName": "Español"
+            },
+            "flag": "https://restcountries.eu/data/chl.svg",
+            "flagAttr": "CHL"
+        }
+    },
+    "D9": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Costa Rica"
+            ],
+            [
+                "Яка столиця країни?",
+                "San José"
+            ]
+        ],
+        "meta": {
+            "name": "Costa Rica",
+            "code": "CR",
+            "capital": "San José",
+            "region": "NA",
+            "currency": {
+                "code": "CRC",
+                "name": "Costa Rican colón",
+                "symbol": "₡"
+            },
+            "language": {
+                "code": "es",
+                "name": "Spanish"
+            },
+            "flag": "https://restcountries.eu/data/cri.svg",
+            "flagAttr": "CRI"
+        }
+    },
+    "D10": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Croatia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Zagreb"
+            ]
+        ],
+        "meta": {
+            "name": "Croatia",
+            "code": "HR",
+            "capital": "Zagreb",
+            "region": "EU",
+            "currency": {
+                "code": "HRK",
+                "name": "Croatian kuna",
+                "symbol": "kn"
+            },
+            "language": {
+                "code": "hr",
+                "name": "Croatian"
+            },
+            "flag": "https://restcountries.eu/data/hrv.svg",
+            "flagAttr": "HRV"
+        }
+    },
+    "E1": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "United Arab Emirates"
+            ],
+            [
+                "Яка столиця країни?",
+                "Abu Dhabi"
+            ]
+        ],
+        "meta": {
+            "name": "United Arab Emirates",
+            "code": "AE",
+            "capital": "Abu Dhabi",
+            "region": "AS",
+            "currency": {
+                "code": "AED",
+                "name": "United Arab Emirates dirham",
+                "symbol": "د.إ"
+            },
+            "language": {
+                "code": "ar",
+                "name": "Arabic"
+            },
+            "flag": "https://restcountries.eu/data/are.svg",
+            "flagAttr": "ARE"
+        }
+    },
+    "E2": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Malaysia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Kuala Lumpur"
+            ]
+        ],
+        "meta": {
+            "name": "Malaysia",
+            "code": "MY",
+            "capital": "Kuala Lumpur",
+            "region": "AS",
+            "currency": {
+                "code": "MYR",
+                "name": "Malaysian ringgit",
+                "symbol": "RM"
+            },
+            "language": {
+                "code": null,
+                "name": "Malaysian"
+            },
+            "flag": "https://restcountries.eu/data/mys.svg",
+            "flagAttr": "MYS"
+        }
+    },
+    "E3": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Greece"
+            ],
+            [
+                "Яка столиця країни?",
+                "Athens"
+            ]
+        ],
+        "meta": {
+            "name": "Greece",
+            "code": "GR",
+            "capital": "Athens",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "el",
+                "name": "Greek (modern)"
+            },
+            "flag": "https://restcountries.eu/data/grc.svg",
+            "flagAttr": "GRC"
+        }
+    },
+    "E4": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Hungary"
+            ],
+            [
+                "Яка столиця країни?",
+                "Budapest"
+            ]
+        ],
+        "meta": {
+            "name": "Hungary",
+            "code": "HU",
+            "capital": "Budapest",
+            "region": "EU",
+            "currency": {
+                "code": "HUF",
+                "name": "Hungarian forint",
+                "symbol": "Ft"
+            },
+            "language": {
+                "code": "hu",
+                "name": "Hungarian"
+            },
+            "flag": "https://restcountries.eu/data/hun.svg",
+            "flagAttr": "HUN"
+        }
+    },
+    "E5": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Ukraine"
+            ],
+            [
+                "Яка столиця країни?",
+                "Kyiv"
+            ]
+        ],
+        "meta": {
+            "name": "Ukraine",
+            "code": "UA",
+            "capital": "Kyiv",
+            "region": "EU",
+            "currency": {
+                "code": "UAH",
+                "name": "Ukrainian hryvnia",
+                "symbol": "₴"
+            },
+            "language": {
+                "code": "uk",
+                "name": "Ukrainian"
+            },
+            "flag": "https://restcountries.eu/data/ukr.svg",
+            "flagAttr": "UKR"
+        }
+    },
+    "E6": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Qatar"
+            ],
+            [
+                "Яка столиця країни?",
+                "Doha"
+            ]
+        ],
+        "meta": {
+            "name": "Qatar",
+            "code": "QA",
+            "capital": "Doha",
+            "region": "AS",
+            "currency": {
+                "code": "QAR",
+                "name": "Qatari riyal",
+                "symbol": "ر.ق"
+            },
+            "language": {
+                "code": "ar",
+                "name": "Arabic"
+            },
+            "flag": "https://restcountries.eu/data/qat.svg",
+            "flagAttr": "QAT"
+        }
+    },
+    "E7": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Romania"
+            ],
+            [
+                "Яка столиця країни?",
+                "Bucharest"
+            ]
+        ],
+        "meta": {
+            "name": "Romania",
+            "code": "RO",
+            "capital": "Bucharest",
+            "region": "EU",
+            "currency": {
+                "code": "RON",
+                "name": "Romanian leu",
+                "symbol": "lei"
+            },
+            "language": {
+                "code": "ro",
+                "name": "Romanian"
+            },
+            "flag": "https://restcountries.eu/data/rou.svg",
+            "flagAttr": "ROU"
+        }
+    },
+    "E8": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Bulgaria"
+            ],
+            [
+                "Яка столиця країни?",
+                "Sofia"
+            ]
+        ],
+        "meta": {
+            "name": "Bulgaria",
+            "code": "BG",
+            "capital": "Sofia",
+            "region": "EU",
+            "currency": {
+                "code": "BGN",
+                "name": "Bulgarian lev",
+                "symbol": "лв"
+            },
+            "language": {
+                "code": "bg",
+                "name": "Bulgarian"
+            },
+            "flag": "https://restcountries.eu/data/bgr.svg",
+            "flagAttr": "BGR"
+        }
+    },
+    "E9": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Montenegro"
+            ],
+            [
+                "Яка столиця країни?",
+                "Podgorica"
+            ]
+        ],
+        "meta": {
+            "name": "Montenegro",
+            "code": "ME",
+            "capital": "Podgorica",
+            "region": "EU",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            },
+            "language": {
+                "code": "sr",
+                "name": "Serbian"
+            },
+            "flag": "https://restcountries.eu/data/mne.svg",
+            "flagAttr": "MNE"
+        }
+    },
+    "E10": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Seychelles"
+            ],
+            [
+                "Яка столиця країни?",
+                "Victoria"
+            ]
+        ],
+        "meta": {
+            "name": "Seychelles",
+            "code": "SC",
+            "capital": "Victoria",
+            "region": "AF",
+            "currency": {
+                "code": "SCR",
+                "name": "Seychellois rupee",
+                "symbol": "₨"
+            },
+            "language": {
+                "code": "fr",
+                "name": "French"
+            },
+            "flag": "https://restcountries.eu/data/syc.svg",
+            "flagAttr": "SYC"
+        }
+    },
+    "F1": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Panama"
+            ],
+            [
+                "Яка столиця країни?",
+                "Panama City"
+            ]
+        ],
+        "meta": {
+            "name": "Panama",
+            "code": "PA",
+            "capital": "Panama City",
+            "region": "NA",
+            "currency": {
+                "code": "USD",
+                "name": "United States dollar",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "es",
+                "name": "Spanish"
+            },
+            "flag": "https://restcountries.eu/data/pan.svg",
+            "flagAttr": "PAN"
+        }
+    },
+    "F2": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Serbia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Belgrade"
+            ]
+        ],
+        "meta": {
+            "name": "Serbia",
+            "code": "RS",
+            "capital": "Belgrade",
+            "region": "EU",
+            "currency": {
+                "code": "RSD",
+                "name": "Serbian dinar",
+                "symbol": "дин."
+            },
+            "language": {
+                "code": "sr",
+                "name": "Serbian"
+            },
+            "flag": "https://restcountries.eu/data/scg.svg",
+            "flagAttr": "SCG"
+        }
+    },
+    "F3": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Georgia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Tbilisi"
+            ]
+        ],
+        "meta": {
+            "name": "Georgia",
+            "code": "GE",
+            "capital": "Tbilisi",
+            "region": "AS",
+            "currency": {
+                "code": "GEL",
+                "name": "Georgian Lari",
+                "symbol": "ლ"
+            },
+            "language": {
+                "code": "ka",
+                "name": "Georgian"
+            },
+            "flag": "https://restcountries.eu/data/geo.svg",
+            "flagAttr": "GEO"
+        }
+    },
+    "F4": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "China"
+            ],
+            [
+                "Яка столиця країни?",
+                "Beijing"
+            ]
+        ],
+        "meta": {
+            "name": "China",
+            "code": "CN",
+            "capital": "Beijing",
+            "region": "AS",
+            "currency": {
+                "code": "CNY",
+                "name": "Chinese yuan",
+                "symbol": "¥"
+            },
+            "language": {
+                "code": "zh",
+                "name": "Chinese"
+            },
+            "flag": "https://restcountries.eu/data/chn.svg",
+            "flagAttr": "CHN"
+        }
+    },
+    "F5": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Armenia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Yerevan"
+            ]
+        ],
+        "meta": {
+            "name": "Armenia",
+            "code": "AM",
+            "capital": "Yerevan",
+            "region": "AS",
+            "currency": {
+                "code": "AMD",
+                "name": "Armenian dram",
+                "symbol": null
+            },
+            "language": {
+                "code": "hy",
+                "name": "Armenian"
+            },
+            "flag": "https://restcountries.eu/data/arm.svg",
+            "flagAttr": "ARM"
+        }
+    },
+    "F6": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Bahrain"
+            ],
+            [
+                "Яка столиця країни?",
+                "Manama"
+            ]
+        ],
+        "meta": {
+            "name": "Bahrain",
+            "code": "BH",
+            "capital": "Manama",
+            "region": "AS",
+            "currency": {
+                "code": "BHD",
+                "name": "Bahraini dinar",
+                "symbol": ".د.ب"
+            },
+            "language": {
+                "code": "ar",
+                "name": "Arabic"
+            },
+            "flag": "https://restcountries.eu/data/bhr.svg",
+            "flagAttr": "BHR"
+        }
+    },
+    "F7": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Argentina"
+            ],
+            [
+                "Яка столиця країни?",
+                "Buenos Aires"
+            ]
+        ],
+        "meta": {
+            "name": "Argentina",
+            "code": "AR",
+            "capital": "Buenos Aires",
+            "region": "SA",
+            "currency": {
+                "code": "ARS",
+                "name": "Argentine peso",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "es",
+                "name": "Spanish"
+            },
+            "flag": "https://restcountries.eu/data/arg.svg",
+            "flagAttr": "ARG"
+        }
+    },
+    "F8": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Kuwait"
+            ],
+            [
+                "Яка столиця країни?",
+                "Kuwait City"
+            ]
+        ],
+        "meta": {
+            "name": "Kuwait",
+            "code": "KW",
+            "capital": "Kuwait City",
+            "region": "AS",
+            "currency": {
+                "code": "KWD",
+                "name": "Kuwaiti dinar",
+                "symbol": "د.ك"
+            },
+            "language": {
+                "code": "ar",
+                "name": "Arabic"
+            },
+            "flag": "https://restcountries.eu/data/kwt.svg",
+            "flagAttr": "KWT"
+        }
+    },
+    "F9": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Trinidad and Tobago"
+            ],
+            [
+                "Яка столиця країни?",
+                "Port of Spain"
+            ]
+        ],
+        "meta": {
+            "name": "Trinidad and Tobago",
+            "code": "TT",
+            "capital": "Port of Spain",
+            "region": "SA",
+            "currency": {
+                "code": "TTD",
+                "name": "Trinidad and Tobago dollar",
+                "symbol": "$"
+            },
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "flag": "https://restcountries.eu/data/tto.svg",
+            "flagAttr": "TTO"
+        }
+    },
+    "F10": {
+        "questions": [
+            [
+                "Яка назва країни?",
+                "Macedonia"
+            ],
+            [
+                "Яка столиця країни?",
+                "Skopje"
+            ]
+        ],
+        "meta": {
+            "name": "Macedonia",
+            "code": "MK",
+            "capital": "Skopje",
+            "region": "EU",
+            "currency": {
+                "code": "MKD",
+                "name": "Macedonian denar",
+                "symbol": "ден"
+            },
+            "language": {
+                "code": "mk",
+                "name": "Macedonian"
+            },
+            "flag": "https://restcountries.eu/data/mkd.svg",
+            "flagAttr": "MKD"
+        }
+    }
+}

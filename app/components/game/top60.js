@@ -52,7 +52,7 @@ const top60 = [
     "Malaysia",
     "Greece",
     "Hungary",
-    "Mauritius",
+    "Ukraine",
     "Qatar",
     "Romania",
     "Bulgaria",
