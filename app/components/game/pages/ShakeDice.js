@@ -10,7 +10,7 @@ export const ShakeDice = (data) => {
     const view = `
         <div class="game__wrapper">
             <div class="game__row">
-                <button class="js-new-game">Грати нову гру</button>
+                <span class="game__new-game-link js-new-game">Грати нову гру</span>
             </div>
             <div class="game__row">
                 ${data.players.map((player, playerIndex) => {

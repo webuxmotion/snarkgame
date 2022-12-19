@@ -42,7 +42,7 @@ export const ChooseAnswer = (data) => {
         
         return `
             <div class="game__modal">
-                <img src="${`/images/maps/map_1/${combinationKey}.png`}" alt="flag">
+                <img width="150" src="${`/images/maps/map_1/${combinationKey}.png`}" alt="flag">
                 <div>${currentQuestion}</div>
                 <div>Ваша відповідь: ${data?.selectedAnswer}</div>
 
@@ -70,7 +70,7 @@ export const ChooseAnswer = (data) => {
     const view = `
         <div class="game__wrapper">
             <div class="game__row">
-                <button class="js-new-game">Грати нову гру</button>
+                <span class="game__new-game-link js-new-game">Грати нову гру</span>
             </div>
             <div class="game__row">
                 ${data.players.map((player, playerIndex) => {
@@ -106,7 +106,6 @@ export const ChooseAnswer = (data) => {
                     `;
                 }).join('')}
             </div>
-            <img src="${`/images/maps/map_1/${combinationKey}.png`}" alt="flag">
 
             <div class="game__row">
                 <div class="game__dice-items-row">
@@ -116,12 +115,24 @@ export const ChooseAnswer = (data) => {
                 </div>
             </div>
 
+            <div class="game__row game__row--image-row js-image-row">
+                <img width="150" src="${`/images/maps/map_1/${combinationKey}.png`}" alt="flag">
+            </div>
+
             <div class="game__row">
-                ${data.combination[0]} Дивитись зображення
+                ${data.combination[0]} 
+                <span class="game__toggle-link js-toggle-image">
+                    <span>Дивитись зображення</span>
+                    <span>Сховати зображення</span>
+                </span>
             </div>
 
             <div class="game__row">
                 <h1>${currentQuestion}</h1>
+            </div>
+
+            <div class="game__row">
+                <h3>${statusMessage}</h3>
             </div>
 
             <div class="game__row">
@@ -147,10 +158,6 @@ export const ChooseAnswer = (data) => {
             
             <div class="game__row">
                 <button class="js-confirm-answer">ПІДТВЕРДИТИ</button>
-            </div>
-
-            <div class="game__row">
-                ${statusMessage}
             </div>
 
             ${data.mode == modes.CHECK_ANSWER ? getModal() : ''}
@@ -190,6 +197,11 @@ export const ChooseAnswerEventListener = (event) => {
             }
 
         }
+    }
+
+    if (event.target.classList.contains('js-toggle-image')) {
+        event.target.classList.toggle('is-show');
+        document.querySelector('.js-image-row').classList.toggle('is-show');
     }
 }
 

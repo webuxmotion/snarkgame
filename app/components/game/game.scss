@@ -3,6 +3,14 @@
 .game {
     &__row {
         padding: 10px;
+
+        &--image-row {
+            display: none;
+        }
+
+        &.is-show {
+            display: block;
+        }
     }
     
     &__wrapper {
@@ -11,6 +19,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        font-weight: normal;
     }
     &__logo {
         text-align: center;
@@ -61,5 +70,34 @@
         left: 50%;
         z-index: 2;
         transform: translate(-50%, -50%);
+    }
+
+    &__new-game-link {
+        text-decoration: underline;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    &__toggle-link {
+        border-bottom: 1px dashed black;
+        font-weight: 300;
+        cursor: pointer;
+
+        span {
+            pointer-events: none;
+        }
+
+        span:nth-child(2) {
+            display: none;
+        }
+
+        &.is-show {
+            span:nth-child(1) {
+                display: none;
+            }
+            span:nth-child(2) {
+                display: inline;
+            }
+        }
     }
 }

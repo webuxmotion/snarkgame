@@ -69,7 +69,6 @@ ul {
 }
 .hero__big-text {
   font-size: 8vw;
-  font-weight: bold;
 }
 .hero__small-text {
   font-size: 4vw;
@@ -138,12 +137,19 @@ ul {
 .game__row {
   padding: 10px;
 }
+.game__row--image-row {
+  display: none;
+}
+.game__row.is-show {
+  display: block;
+}
 .game__wrapper {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-weight: normal;
 }
 .game__logo {
   text-align: center;
@@ -188,6 +194,28 @@ ul {
   left: 50%;
   z-index: 2;
   transform: translate(-50%, -50%);
+}
+.game__new-game-link {
+  text-decoration: underline;
+  font-weight: 300;
+  cursor: pointer;
+}
+.game__toggle-link {
+  border-bottom: 1px dashed black;
+  font-weight: 300;
+  cursor: pointer;
+}
+.game__toggle-link span {
+  pointer-events: none;
+}
+.game__toggle-link span:nth-child(2) {
+  display: none;
+}
+.game__toggle-link.is-show span:nth-child(1) {
+  display: none;
+}
+.game__toggle-link.is-show span:nth-child(2) {
+  display: inline;
 }
 
 .dice-wrapper {
