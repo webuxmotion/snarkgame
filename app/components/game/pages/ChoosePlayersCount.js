@@ -11,11 +11,6 @@ export const ChoosePlayersCount = (data) => {
                 </div>
             </div>
             <div class="game__row">
-            
-                <div>
-                    <input type="radio" id="one_player" name="playerCount" value="1" ${data.playersCount == 1 ? 'checked' : ''}>
-                    <label for="one_player">ОДИН ГРАВЕЦЬ</label>
-                </div>
 
                 <div>
                     <input type="radio" id="two_players" name="playerCount" value="2" ${data.playersCount == 2 ? 'checked' : ''}>
@@ -31,6 +26,11 @@ export const ChoosePlayersCount = (data) => {
 
     return view;
 }
+
+{/* <div>
+    <input type="radio" id="one_player" name="playerCount" value="1" ${data.playersCount == 1 ? 'checked' : ''}>
+    <label for="one_player">ОДИН ГРАВЕЦЬ</label>
+</div> */}
 
 export const ChoosePlayersCountEventListener = (event) => {
     if (event.target.classList.contains('js-set-players-count')) {

@@ -1,9 +1,9 @@
 import { Dice } from "../components/Dice";
 import map_1 from '../map_1.json';
-import { getGameData, getRandomNumber, letters, modes, renderView, updateData } from "../utils";
+import { getGameData, getNextPlayerIndex, modes, renderView, updateData } from "../utils";
+import { generateInitialData } from '../generateInitialData';
 
 export const ChooseAnswer = (data) => {
-    
     const currentUserName = data.players[data.currentUserIndex].name;
     const statusMessage = `${currentUserName} відповідає`;
 
@@ -14,17 +14,56 @@ export const ChooseAnswer = (data) => {
     const currentVariants = variants[passedQuestions];
     const currentQuestion = map_1[combinationKey].questions[passedQuestions][0];
 
+    console.log(map_1[combinationKey].questions[passedQuestions]);
+
     const getModal = () => {
         const selectedAnswer = data?.selectedAnswer;
         const rightAnswer = map_1[combinationKey].questions?.[passedQuestions][1];
         let isRightAnswer = selectedAnswer == rightAnswer;
+
+        const currentPlayer = data.players[data.currentUserIndex];
+        const nextPlayerIndex = getNextPlayerIndex(data);
+        const nextPlayer = data.players[nextPlayerIndex];
+        let message = currentPlayer.name;
+
+        if (!isRightAnswer && currentPlayer.health > 1) {
+            message += ` втрачає 1 яхту. 
+                <br>Залишилось яхт: ${currentPlayer.health - 1}.
+                <br>Далі ходить ${nextPlayer.name}
+            `;
+        } else if (!isRightAnswer && currentPlayer.health == 1) {
+            message += ` втрачає останню яхту! 
+                <br>Гра закінчена!
+                <h2>Переміг ${nextPlayer.name}!</h2>
+            `;
+        } else if (isRightAnswer) {
+            message += `, так тримати!
+                <br>Далі ходить ${nextPlayer.name}
+            `;
+        }
         
         return `
             <div class="game__modal">
                 <img src="${`/images/maps/map_1/${combinationKey}.png`}" alt="flag">
                 <div>${currentQuestion}</div>
-                <div>${data?.selectedAnswer}</div>
-                ${isRightAnswer}
+                <div>Ваша відповідь: ${data?.selectedAnswer}</div>
+
+                ${isRightAnswer ? (
+                    `
+                        <img src="/images/check.png" alt="right answer">
+                        <h2>ПРАВИЛЬНО</h2>
+                    `
+                ) : (
+                    `
+                        <img src="/images/cancel.png" alt="wrong answer">
+                        <h2>НЕ ПРАВИЛЬНО</h2>
+                    `
+                )}
+                <div style="text-align: center;">
+                ${message}
+                </div>
+
+                <button class="js-go-next-check-modal">ДАЛІ</button>
             </div>
             <div class="game__modal-backdrop"></div>
         `;
@@ -152,6 +191,46 @@ export const ChooseAnswerEventListener = (event) => {
                 errorWrapper.innerHTML = errorMessageView;
             }
 
+        }
+    }
+}
+
+export const CheckAnswerModalEventListener = (event) => {
+    if (event.target.classList.contains('js-go-next-check-modal')) {
+        
+        const data = getGameData();
+        const currentPlayer = data.players[data.currentUserIndex];
+        const nextPlayerIndex = getNextPlayerIndex(data);
+
+        const selectedAnswer = data?.selectedAnswer;
+        const combinationKey = data.combination[0];
+        const passedQuestions = data.mode == modes.CHECK_ANSWER ? data.passedQuestions[combinationKey] - 1 : data.passedQuestions[combinationKey];
+
+        const rightAnswer = map_1[combinationKey].questions?.[passedQuestions][1];
+        let isRightAnswer = selectedAnswer == rightAnswer;
+
+        data.selectedAnswer = '';
+
+        if (!isRightAnswer && currentPlayer.health > 1) {
+            data.players[data.currentUserIndex].health = currentPlayer.health - 1;
+            data.currentUserIndex = nextPlayerIndex;
+            data.mode = modes.SHAKE_DICE;
+
+            updateData(data);
+            renderView(data);
+        } else if (!isRightAnswer && currentPlayer.health == 1) {
+            const newData = generateInitialData();
+
+            updateData(newData);
+            renderView(newData);
+        } else if (isRightAnswer) {
+            data.currentUserIndex = nextPlayerIndex;
+            data.mode = modes.SHAKE_DICE;
+
+            updateData(data);
+            renderView(data);
+        } else {
+            alert('ERROR');
         }
     }
 }

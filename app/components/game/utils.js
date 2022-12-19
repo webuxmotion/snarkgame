@@ -231,7 +231,7 @@ export const renderView = (data) => {
     gameElement.innerHTML = view;
 }
 
-export const shakeDice = () => {
+export const shakeDice = (data, count = 0) => {
     const num1 = getRandomNumber(5);
     const num2 = getRandomNumber(4) + 1;
     const num3 = getRandomNumber(4) + 1;
@@ -239,5 +239,27 @@ export const shakeDice = () => {
     const stringKey = letters[num1] + (num2 + num3);
     const numsInArrayKey = [num1, num2, num3];
 
+    const passedQuestionsCount = data.passedQuestions[stringKey];
+    const variants = data.variants[stringKey];
+    
+    if (passedQuestionsCount >= variants.length) {
+        if (count < 200) {
+            return shakeDice(data, count + 1);
+        } else {
+            return false;
+        }
+    };
+
     return [stringKey, numsInArrayKey];
+}
+
+export const getNextPlayerIndex = (data) => {
+    const { currentUserIndex, players } = data;
+    let nextIndexCandidate = currentUserIndex + 1;
+
+    if (!players?.[nextIndexCandidate]) {
+        nextIndexCandidate = 0;
+    }
+
+    return nextIndexCandidate;
 }

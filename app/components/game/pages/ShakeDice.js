@@ -1,4 +1,5 @@
 import { Dice } from "../components/Dice";
+import { generateInitialData } from "../generateInitialData";
 import { getGameData, getRandomNumber, letters, modes, renderView, shakeDice, updateData } from "../utils";
 
 export const ShakeDice = (data) => {
@@ -48,16 +49,13 @@ export const ShakeDice = (data) => {
 
             <div class="game__row">
                 <div class="game__dice-items">
+                    <button class="game__dice-button js-shake-dice">КИНУТИ КОСТІ</button>
                     ${Dice('letter', 5)}
                     <div>
                         ${Dice('number', 1)}
                         ${Dice('number', 2)}
                     </div>
                 </div>
-            </div>
-            
-            <div class="game__row">
-                <button class="js-shake-dice">КИНУТИ КОСТІ</button>
             </div>
 
             <div class="game__row">
@@ -72,12 +70,21 @@ export const ShakeDice = (data) => {
 export const ShakeDiceEventListener = (event) => {
     if (event.target.classList.contains('js-shake-dice')) {
         const data = getGameData();
+        const shakedResult = shakeDice(data);
 
-        data.combination = shakeDice();
-        data.mode = modes.CHOOSE_ANSWER;
+        if (!shakedResult) {
+            alert('Ви відповіли на всі запитання! Нічия');
+            const newData = generateInitialData();
 
-        updateData(data);
-        renderView(data);
+            updateData(newData);
+            renderView(newData);
+        } else {
+            data.combination = shakedResult;
+            data.mode = modes.CHOOSE_ANSWER;
+    
+            updateData(data);
+            renderView(data);
+        }
     }
 
     if (event.target.classList.contains('js-new-game')) {
