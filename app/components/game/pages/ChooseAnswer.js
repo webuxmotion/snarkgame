@@ -14,8 +14,6 @@ export const ChooseAnswer = (data) => {
     const currentVariants = variants[passedQuestions];
     const currentQuestion = map_1[combinationKey].questions[passedQuestions][0];
 
-    console.log(map_1[combinationKey].questions[passedQuestions]);
-
     const getModal = () => {
         const selectedAnswer = data?.selectedAnswer;
         const rightAnswer = map_1[combinationKey].questions?.[passedQuestions][1];
@@ -119,7 +117,7 @@ export const ChooseAnswer = (data) => {
             </div>
 
             <div class="game__row">
-                ${data.combination[0]} Знайти на карті
+                ${data.combination[0]} Дивитись зображення
             </div>
 
             <div class="game__row">

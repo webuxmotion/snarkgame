@@ -1,12 +1,3 @@
-// let items = document.querySelectorAll('.label-span');
-// const res = [];
-// items.forEach((el, idx) => { 
-//     if (idx < 60) {
-//         res.push(el.innerHTML);
-//     }
-//  });
-//  console.log(res);
-
 const top60 = [
     "Denmark",
     "Norway",

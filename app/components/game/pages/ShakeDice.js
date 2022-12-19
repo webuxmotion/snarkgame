@@ -48,6 +48,10 @@ export const ShakeDice = (data) => {
             </div>
 
             <div class="game__row">
+                ${statusMessage}
+            </div>
+
+            <div class="game__row">
                 <div class="game__dice-items">
                     <button class="game__dice-button js-shake-dice">КИНУТИ КОСТІ</button>
                     ${Dice('letter', 5)}
@@ -56,10 +60,6 @@ export const ShakeDice = (data) => {
                         ${Dice('number', 2)}
                     </div>
                 </div>
-            </div>
-
-            <div class="game__row">
-                ${statusMessage}
             </div>
         </div>
     `;

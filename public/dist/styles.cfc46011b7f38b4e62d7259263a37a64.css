@@ -135,6 +135,9 @@ ul {
   right: 6px;
 }
 
+.game__row {
+  padding: 10px;
+}
 .game__wrapper {
   min-height: 100vh;
   display: flex;
@@ -174,6 +177,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 .game__dice-button {
   padding: 20px;

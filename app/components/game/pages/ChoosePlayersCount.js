@@ -1,7 +1,7 @@
 import { getGameData, modes, renderView, updateData } from "../utils";
 
 export const ChoosePlayersCount = (data) => {
-    
+
     const view = `
         <div class="game__wrapper">
             <div class="game__row">
