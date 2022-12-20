@@ -233,8 +233,16 @@ export const renderView = (data) => {
 
 export const shakeDice = (data, count = 0) => {
     const num1 = getRandomNumber(5);
-    const num2 = getRandomNumber(4) + 1;
-    const num3 = getRandomNumber(4) + 1;
+    let num2 = getRandomNumber(5);
+    let num3 = getRandomNumber(5);
+
+    if (num2 == 0 && num3 == 0) {
+        num2 = getRandomNumber(4) + 1;
+    } else if (num2 == 0) {
+        num3 = getRandomNumber(4) + 1;
+    } else if (num3 == 0) {
+        num2 = getRandomNumber(4) + 1;
+    }
     
     const stringKey = letters[num1] + (num2 + num3);
     const numsInArrayKey = [num1, num2, num3];

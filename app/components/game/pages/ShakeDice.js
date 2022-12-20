@@ -72,6 +72,18 @@ export const ShakeDiceEventListener = (event) => {
         const data = getGameData();
         const shakedResult = shakeDice(data);
 
+        // const res = {};
+        // for (let i = 0; i < 200000000; i++) {
+        //     const shakedResult = shakeDice(data);
+            
+        //     if (!res?.[shakedResult[0]]) {
+        //         res[shakedResult[0]] = 1;
+        //     } else {
+        //         res[shakedResult[0]] = res[shakedResult[0]] + 1;
+        //     }
+        // }
+        // console.log(res);
+
         if (!shakedResult) {
             alert('Ви відповіли на всі запитання! Нічия');
             const newData = generateInitialData();
