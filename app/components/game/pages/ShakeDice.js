@@ -100,10 +100,9 @@ export const ShakeDiceEventListener = (event) => {
     }
 
     if (event.target.classList.contains('js-new-game')) {
-        const data = getGameData();
-        data.mode = modes.CHOOSE_PLAYERS_COUNT;
-        
-        updateData(data);
-        renderView(data);
+        const newData = generateInitialData();
+
+        updateData(newData);
+        renderView(newData);
     }
 }
